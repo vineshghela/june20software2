@@ -4,7 +4,8 @@ public class MakeTea {
 	
 	public static void main(String []args) {
 
-		/* multi line comment
+		/* multi line comment */
+		
 		System.out.println("Add waster to tea bag");
 		System.out.println("Let the Tea bag brew");
 		
@@ -16,7 +17,7 @@ public class MakeTea {
 		}else {
 			System.out.println("serve Tea");
 		}
-		*/
+		
 		//This is a single comment.
 		
 		
