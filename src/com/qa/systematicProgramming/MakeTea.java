@@ -5,19 +5,19 @@ public class MakeTea {
 	public static void main(String []args) {
 
 		/* multi line comment */
-		
-		System.out.println("Add waster to tea bag");
-		System.out.println("Let the Tea bag brew");
-		
-		Boolean milk = true;
-		
-		if (milk == true) {
-			System.out.println("Add milk");
-			System.out.println("serve Tea");
-		}else {
-			System.out.println("serve Tea");
-		}
-		
+//		
+//		System.out.println("Add waster to tea bag");
+//		System.out.println("Let the Tea bag brew");
+//		
+//		Boolean milk = true;
+//		
+//		if (milk == true) {
+//			System.out.println("Add milk");
+//			System.out.println("serve Tea");
+//		}else {
+//			System.out.println("serve Tea");
+//		}
+//		
 		//This is a single comment.
 		
 		
@@ -27,7 +27,7 @@ public class MakeTea {
 		switch (day) {
 		case 1:
 		System.out.println("Monday you can fall apart");
-//		break;
+//		continue;
 		case 2:
 		System.out.println("Tuesday,");
 //		break;
