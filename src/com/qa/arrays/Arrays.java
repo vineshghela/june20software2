@@ -92,9 +92,9 @@ cars.add("Ford");
 cars.remove(0);
 //	
 System.out.println( cars);
-System.out.println( cars);
-System.out.println(cars.removeFirst());
 
+System.out.println(cars.removeFirst());
+System.out.println( cars);
 System.out.println(cars);
 	
 		
