@@ -5,6 +5,6 @@ public interface newINT {
 	public void noise();
 	public void a();
 	public void v();
-	public void c();
+	public void j();
 	
 }

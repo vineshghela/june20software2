@@ -38,8 +38,9 @@ public class Cat extends Animal implements newINT{
 		
 	}
 
+
 	@Override
-	public void c() {
+	public void j() {
 		// TODO Auto-generated method stub
 		
 	}
