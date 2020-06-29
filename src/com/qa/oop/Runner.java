@@ -10,13 +10,14 @@ public class Runner {
 //		Cars ahmadsCar = new Cars("Black","Merc","c63 amgs",2020,150,2); // object 2
 		Cars newCar = new Cars();
 //		newCar.setBrand("Audi");
-//		newCar.setColour("green");
-////		newCar.setModel("A5");
-		newCar.setSpeed(0);
-		newCar.setYear(2020);
-//		newCar.setNoWheels(0);
+////		newCar.setColour("green");
+//////		newCar.setModel("A5");
+//		newCar.setSpeed(0);
+//		newCar.setYear(2020);
+////		newCar.setNoWheels(0);
 		
-		System.out.println(newCar);
+//		System.out.println(newCar.col);
+		//System.out.println(newCar);
 		
 		//System.out.println(vinCar);
 //		System.out.println(ahmadsCar);
