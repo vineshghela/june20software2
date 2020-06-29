@@ -7,7 +7,7 @@ public class Cars {
 	private String model = "Some model";
 	private int year=2020;
 	private int speed;
-	private int noWheels = 4;
+	private int noWheels = 6;
 
 	public Cars(String colour, String brand, String model, int year, int speed, int noWheels) {
 		this.colour = colour;

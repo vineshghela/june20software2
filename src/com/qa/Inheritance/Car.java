@@ -1,6 +1,5 @@
 package com.qa.Inheritance;
 
-import com.sun.xml.internal.bind.annotation.OverrideAnnotationOf;
 
 public class Car extends vehicle {
 

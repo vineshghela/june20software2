@@ -15,7 +15,7 @@ public class Runner {
 //		newCar.setSpeed(0);
 //		newCar.setYear(2020);
 ////		newCar.setNoWheels(0);
-		
+		System.out.println(newCar.getNoWheels());
 //		System.out.println(newCar.col);
 		//System.out.println(newCar);
 		
