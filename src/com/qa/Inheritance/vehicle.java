@@ -11,10 +11,10 @@ public class vehicle {
 	private double engineSize;
 	
 	
-	public vehicle(String colour, int numberWheels, int topSpeed, String model, String make, int year,
+	public vehicle(String c, int numberWheels, int topSpeed, String model, String make, int year,
 			double engineSize) {
 		super();
-		this.colour = colour;
+		this.colour = c;
 		this.numberWheels = numberWheels;
 		this.topSpeed = topSpeed;
 		this.model = model;
@@ -22,6 +22,8 @@ public class vehicle {
 		this.year = year;
 		this.engineSize = engineSize;
 	}
+	
+	
 	
 	public void carNoise() {
 		System.out.println("BRMMMMMMMMMMMMMMMM");

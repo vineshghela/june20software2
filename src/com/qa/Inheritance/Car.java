@@ -12,6 +12,7 @@ public class Car extends vehicle {
 	public static void main(String[] args) {
 		
 		vehicle brum = new Car();
+		vehicle myAudi = new Car();
 		
 		
 	
