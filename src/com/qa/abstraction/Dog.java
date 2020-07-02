@@ -1,29 +1,6 @@
 package com.qa.abstraction;
 
-public class Dog extends Animal implements newINT {
-	@Override
-	public void noise() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void a() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void v() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void j() {
-		// TODO Auto-generated method stub
-		
-	}
+public class Dog extends Animal implements animal_interface, myFace{
 
 	@Override
 	public void speak() {
@@ -42,5 +19,39 @@ public class Dog extends Animal implements newINT {
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public void hasTail() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
+	
+//	@Override
+//	public void speak() {
+//		System.out.println("woof woof wooof");
+//		
+//	}
+//
+//	@Override
+//	public void eat() {
+//		System.out.println("yum yum yum yum ");
+//		
+//	}
+//
+//	@Override
+//	public void poop() {
+//		// TODO Auto-generated method stub
+//		
+//	}
+//
+//	@Override
+//	public void hasTail() {
+//		// TODO Auto-generated method stub
+//		
+//	}
+	
 
 }

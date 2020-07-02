@@ -11,6 +11,8 @@ public class Strings {
 				System.out.println(str1.equals(str2));// false
 				
 				
+				
+				
 //				System.out.println(str1.length());
 				
 //				System.out.println(str1.length()); //6

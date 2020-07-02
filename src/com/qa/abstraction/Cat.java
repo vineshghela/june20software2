@@ -1,48 +1,55 @@
 package com.qa.abstraction;
 
-public class Cat extends Animal implements newINT{
+public class Cat extends Animal implements animal_interface{
 
 	@Override
 	public void speak() {
-		System.out.println("MEOWWWWWW");
+		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void eat() {
-		System.out.println("numnumnum");
+		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void poop() {
-		System.out.println("Ouch!");
-		
-	}
-
-	@Override
-	public void noise() {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void a() {
+	public void hasTail() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
-	public void v() {
-		// TODO Auto-generated method stub
-		
-	}
+//	@Override
+//	public void speak() {
+//		System.out.println("meow meow meow");
+//		
+//	}
+//
+//	@Override
+//	public void eat() {
+//		// TODO Auto-generated method stub
+//		
+//	}
+//
+//	@Override
+//	public void poop() {
+//		System.out.println("I pooped :$");
+//		
+//	}
+//
+//	@Override
+//	public void hasTail() {
+//		System.out.println("I have a tail");
+//		
+//	}
 
-
-	@Override
-	public void j() {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 }
