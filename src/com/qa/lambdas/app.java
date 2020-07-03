@@ -5,24 +5,14 @@ public class app {
 	public static void main(String[] args) {
 		
 		 
-		app APP = new app();
-	      //with type declaration
-	      MathOperation addition = ( int a, int b) -> a + b;
+		Math_Operations maths = new Math_Operations();
+	      
 			
-	      //with out type declaration
-	      MathOperation subtraction = (a, b) -> a - b;
-			
-	      //with return statement along with curly braces
-	      MathOperation multiplication = (int a, int b) -> { return a * b; };
-			
-	      //without return statement and without curly braces
-	      MathOperation division = (int a, int b) -> a / b;
-			
-	      System.out.println(APP.operate(10, 5, addition));
-	      System.out.println("10 - 5 = " + APP.operate(10, 5, subtraction));
-	      System.out.println("10 x 5 = " + APP.operate(10, 5, multiplication));
-	      System.out.println("10 / 5 = " + APP.operate(10, 5, division));
-			
+	      System.out.println(maths.operate(10, 5, maths.addition));
+	      System.out.println(maths.operate(10, 5, maths.subtraction));
+	      System.out.println("10 x 5 = " + maths.operate(10, 5, maths.multiplication));
+	      System.out.println("10 / 5 = " + maths.operate(10, 5, maths.division));
+//			
 	      //without parenthesis
 	      GreetingService greetService1 = message ->
 	      System.out.println("Hello " + message);
@@ -46,12 +36,10 @@ public class app {
 		interface Ball{void hit();}
 		
 		
-	   interface MathOperation {
-	      int operation(int a, int b);
-	   }  
-	   private int operate(int a, int b, MathOperation mathOperation) {
-	      return mathOperation.operation(a, b);
-	   }
+//	   interface MathOperation {
+//	      int operation(int a, int b);
+//	   }  
+	  
 	   
 	   
 	}
